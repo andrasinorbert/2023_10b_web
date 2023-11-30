@@ -1,0 +1,24 @@
+@import "colors";
+
+@mixin bordered($color:blue, $width:3px) {
+    border: $width solid $color;
+}
+
+h1 {
+  color: $myColor;
+  @include bordered(blue, 5px);
+}
+
+p {
+  color: $myColor;
+  @include bordered($color:grey);
+}
+
+#sajatdiv{
+    h1{
+        color: red;
+    }
+    p{
+        @include mycolors;
+    }
+}

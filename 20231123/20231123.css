@@ -1,0 +1,17 @@
+h1 {
+  color: red;
+  border: 5px solid blue;
+}
+
+p {
+  color: red;
+  border: 3px solid grey;
+}
+
+#sajatdiv h1 {
+  color: red;
+}
+#sajatdiv p {
+  background-color: purple;
+  color: aqua;
+}/*# sourceMappingURL=20231123.css.map */
